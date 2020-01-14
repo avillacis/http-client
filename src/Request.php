@@ -7,7 +7,7 @@ use React\Promise;
 use React\Socket\ConnectionInterface;
 use React\Socket\ConnectorInterface;
 use React\Stream\WritableStreamInterface;
-use RingCentral\Psr7 as gPsr;
+use GuzzleHttp\Psr7 as gPsr;
 
 /**
  * @event response
